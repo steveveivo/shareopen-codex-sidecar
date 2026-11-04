@@ -1,0 +1,38 @@
+{
+  "name": "shareopen-codex-sidecar",
+  "version": "1.0.2",
+  "type": "module",
+  "description": "ShareOpen sidecar (self-contained: SDK inlined, ws bundled).",
+  "bin": {
+    "so-codex-sidecar": "index.js",
+    "so-sidecar": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "builtin-commands.js",
+    "sdk/",
+    "README.md"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "private": false,
+  "keywords": [
+    "shareopen",
+    "codex",
+    "openclaw",
+    "sidecar",
+    "agent",
+    "ai"
+  ],
+  "homepage": "https://shareopen.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steveveivo/shareopen-codex-sidecar"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
